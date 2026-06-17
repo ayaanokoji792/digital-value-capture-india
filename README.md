@@ -1,59 +1,48 @@
-# Digital Value Capture in India's ₹98,000cr Ad Economy
+# The Pipes and the Rents
 
-A strategic management consulting case study analyzing value chain architecture, structural moats, and margin asymmetry between platform aggregators and telecom infrastructure providers within the Indian digital market.
+**Value capture, structural moats, and margin asymmetry between platform aggregators and telecom infrastructure in India's digital economy.**
 
----
+A strategy case study by **Ayaan Nawaz**.
 
-## Executive Summary
-
-India's total advertising market is projected to reach ₹1,64,137cr, with digital media commanding the absolute majority (~60% of all ad spend, or roughly ₹98,000cr). While telecom infrastructure operators shoulder the immense capital expenditure (CAPEX) required to build and maintain the high-speed networks making this economy possible, the financial value overwhelmingly flows to the platform layer. 
-
-This case study applies Aggregation Theory and Value Chain Analysis to examine why global platform aggregators (e.g., Google, Meta) capture outsized margins while relegating foundational network operators to low-margin utility pipelines.
+📄 **[Read the case study (PDF)](the-pipes-and-the-rents.pdf)** &nbsp;·&nbsp; 🌐 **Live page:** `https://<your-username>.github.io/<repo-name>/`
 
 ---
 
-## The Digital Value Chain Matrix
+## The argument in one line
 
-The digital economy is mapped across three distinct structural layers:
+"Platforms win" is true but loosely stated. Telecoms actually earn *more* revenue than the digital-ad market. The defensible claim is narrower: **per rupee of capital deployed, the aggregation layer of the digital stack captures disproportionately more economic profit than the infrastructure layer beneath it or the creator layer above it.**
 
-| Layer | Primary Actors | Strategic Role | Economic Realities |
-| :--- | :--- | :--- | :--- |
-| **Infrastructure** | Telecoms (Airtel, Jio, Vi) | Build, optimize, and run physical networks; acquire and connect the user base. | **High CAPEX / Low Pricing Power:** Data is treated as a commodity utility. |
-| **Aggregation** | Platforms (Google, Meta, X) | Own user attention, search intent, interest mappings, and advertiser demand. | **Asset-Light / High Pricing Power:** Absolute control over digital ad inventory. |
-| **Content** | Creators & Media Entities | Produce content that populates user feeds; completely dependent on platform reach. | **High Volatility / Price Takers:** Exposed to algorithmic shifts and variable RPMs. |
+## What's inside
 
----
+- **A sharpened, testable thesis** — value capture measured by return on invested capital (~24.6% for Alphabet vs ~14% for Bharti Airtel), not by revenue or even EBITDA.
+- **A correction most decks get wrong** — Indian telecoms *do* have pricing power (oligopoly tariff hikes, ARPU ₹256 → ~₹300 by FY27); the contrast is the *kind* of pricing power, not its presence.
+- **The objection that should break the thesis** — Reliance Jio, a telecom that forward-integrated into the aggregation layer — and why it confirms the framework rather than refuting it.
+- **Four threats, each signed by direction** — forward integration, ONDC, CCI/DPDP regulation, and retail media / AI.
+- **An honest limits section** — what the analysis cannot claim, and what a cleaner version would do next.
 
-## Core Analytical Framework: The Three Axes of Competition
+## Method
 
-The case evaluates the ecosystem across three competitive vectors that explain the aggregator advantage:
+The piece applies aggregation theory as its lens and grades every claim by how much it can be trusted (see the summary-of-claims table). Figures are compiled from public reporting and brokerage research and are cited inline; full sources are listed on the final page.
 
-### 1. Pricing Power — Control Over the Monetization Engine
-* **Platforms (High):** A consolidated duopoly controls the vast majority of premium ad inventory. Because digital ad budgets are expanding faster than legacy media, platforms hold strong latitude to dictate prices.
-* **Telecoms (Low):** Connectivity has become a fungible commodity. Despite massive 5G rollouts, industry-leading Average Revenue Per User (ARPU) remains constrained at approximately ₹256/month. Unilateral tariff hikes risk immediate customer churn.
-* **Creators (Low):** Revenue models rely fully on platform-determined revenue payouts (RPM). Creators are structural price-takers.
+## Files
 
-### 2. Margins — Capital Efficiency and Scalability
-* **Platforms (High / Asset-Light):** The marginal cost of serving an additional user is near zero, enabling global operating margins to routinely exceed 40%.
-* **Telecoms (Low / Asset-Heavy):** Massive continuous infrastructure demands eat cash flows. For example, a tier-1 operator like Bharti Airtel recorded ₹9,643cr in India CAPEX in a single quarter (Q2 FY26) to sustain network capabilities.
-* **Creators (Volatile):** Heavy upfront production costs paired with hit-driven, unpredictable revenue cycles lead to highly unstable margin profiles.
+| File | What it is |
+|------|------------|
+| `index.html` | The web-readable case study (this is what GitHub Pages serves) |
+| `the-pipes-and-the-rents.pdf` | Print-formatted PDF, four pages, with figures and references |
+| `README.md` | This file |
 
-### 3. Distribution — Ownership of the User Relationship
-* **Platforms (The Owner):** Aggregators capture and own the direct user terminal (the feed). They mine proprietary, compounding data on consumer intent (search) and interest (social), which brands pay a premium to target.
-* **Telecoms (The Utility Pipe):** Operators supply the physical pipeline. While indispensable, consumers buy access for the speed, not the carrier, detaching the telecom from direct data monetization.
-* **Creators (Rented Audience):** Creators do not own their distribution channels; they rent access to the aggregator's audience, leaving them exposed to sudden algorithmic re-indexing.
+## How this page is hosted
 
----
+This repo is published with **GitHub Pages**. To do the same:
 
-## Strategic Takeaways & Implications
-
-* **For Telecoms:** To escape the commodity utility trap, operators must transition up the stack by aggressively scaling owned enterprise cloud services, local data centers, and proprietary digital service ecosystems.
-* **For Content Creators:** Diversification away from algorithmic dependency via direct-to-consumer pipelines, subscription models, and multi-platform distribution is the only viable protection against revenue compression.
-* **For Strategists & Investors:** In digital ecosystems, returns track demand aggregation and proprietary user datasets rather than balance-sheet-heavy CAPEX investments.
+1. Push these files to a public repo (root level).
+2. Go to **Settings → Pages**.
+3. Under **Source**, choose **Deploy from a branch**, select `main` / `(root)`, and save.
+4. After a minute, the site is live at `https://<your-username>.github.io/<repo-name>/`.
 
 ---
 
-## Repository Contents
+*Sources: Madison & WPP Media 2026 ad-market forecasts; company filings and brokerage notes (Morgan Stanley, MOFSL) via Business Standard / Business Today; ROIC from stockanalysis.com, Alpha Spread and FinanceCharts; Reliance Jio disclosures; ONDC / DPIIT reporting; CCI orders and the DPDP Act 2023. Figures are approximate and used to establish direction and order of magnitude.*
 
-* `/deck` — Contains the executive-ready presentation slides visualizing the financial and strategic trade-offs of the value chain.
-* `/data` — Sourced market figures, operator investor reports, and industry ad spend projections verified up to mid-2026.
+
