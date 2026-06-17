@@ -4,7 +4,7 @@
 
 A strategy case study by **Ayaan Nawaz**.
 
-📄 **[Read the case study (PDF)](the-pipes-and-the-rents.pdf)** &nbsp;·&nbsp; 🌐 **Live page:** `https://<your-username>.github.io/<repo-name>/`
+📄 **[Read the case study (PDF)](the-pipes-and-the-rents.pdf)** &nbsp;·&nbsp; 🌐 **Live page:** `https://ayaanokoji792.github.io/digital-value-capture-india/`
 
 ---
 
